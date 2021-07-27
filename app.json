@@ -1,0 +1,36 @@
+{
+    "name": "✯ Tᴇsʟᴀ MᴜsɪᴄBᴏᴛ ✯",
+    "logo": "https://telegra.ph/file/0ea4e0b8f2c903bb431cb.png",
+    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+    "keywords": ["music", "voicechat", "telegram"],
+    "repository": "https://github.com/MadBoy-X/MusicBot",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "Session string (pyrogram)",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "From @BotFather",
+            "required": true
+        },
+        "API_ID": {
+            "description": "From my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "From my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "Full-access users, counted as admin everywhere, seperated by space.",
+            "required": true,
+            "value": "1732236209 1511373882 1232461895"
+        },
+        "DURATION_LIMIT": {
+            "description": "In minutes!",
+            "required": true,
+            "value": "10"
+        }
+    }
+  }
