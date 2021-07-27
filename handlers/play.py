@@ -1,4 +1,3 @@
-
 import json
 import os
 from os import path
@@ -34,7 +33,7 @@ import tgcalls
 from converter import convert
 from youtube import download
 import sira
-from config import DURATION_LIMIT
+from config import DURATION_LIMIT, ARQ_API_KEY
 from helpers.wrappers import errors, admins_only
 from helpers.errors import DurationLimitError
 
